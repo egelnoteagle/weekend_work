@@ -3,7 +3,7 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-
+  string.chars.sort_by.with_index { |_, i| -i }.join
 end
 
 # Driver code - don't touch anything below this line.

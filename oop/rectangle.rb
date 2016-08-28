@@ -1,7 +1,24 @@
 # Create a Rectangle class with readable width and height attributes
 # and a method to calculate its area.
 
+class Rectangle
+  def intialize(width, height)
+    @width = width.to_s
+    @height = height.to_s
+  end
+  
+  def width
+    @width
+  end
 
+  def height
+    @height
+  end  
+
+  def area
+    @width * @height
+  end   
+end  
 
 # Driver code - don't touch anything below this line.
 puts "TESTING the Rectange class..."
