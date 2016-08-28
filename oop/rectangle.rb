@@ -2,9 +2,9 @@
 # and a method to calculate its area.
 
 class Rectangle
-  def intialize(width, height)
-    @width = width.to_s
-    @height = height.to_s
+  def initialize(width, height)
+    @width = width
+    @height = height
   end
   
   def width
